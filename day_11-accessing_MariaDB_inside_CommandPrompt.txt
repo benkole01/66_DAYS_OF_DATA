@@ -1,0 +1,15 @@
+The following are Command Prompt/Terminal Commands to help you access the MariaDB.
+Before running the commands, make sure you have installed XAMPP and you have opened localhost server in your computer.
+To open Localhost server:
+ - launch the XAMPP control panel
+ - go to your favorite web browser and type localhost
+
+Run the following commands in your CMD/Terminal to access the MariaDB:
+1. cd C:\filepath\xampp (change directory to where you have installed your xampp)
+2. cd mysql
+3. cd bin
+4. mysql -u root
+
+If you the 4th command and everything is set, i.e localhost/phpmyadmin server is on, you will see a message welcoming you to MariaDB. You are now ready to run your SQL queries/commands using the MariaDB. 
+Remember SQL commands end with semi colon as a standard rule.
+You can start with SHOW DATABESES; (to view databases that are inside phpmyadmin).
